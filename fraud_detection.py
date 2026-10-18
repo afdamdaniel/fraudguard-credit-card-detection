@@ -5,11 +5,17 @@ Created on Sun Oct 18 15:57:13 2026
 @author: afdamdaniel
 """
 import pickle
+from pathlib import Path
 import streamlit as st
-#from streamlit_option_menu import option_menu
 
-#load the model
-fraud_detection_model = pickle.load(open("C:/Users/User/Documents/ML & DS Project/Fraud Detection/fraud_detection_model.sav", 'rb'))
+MODEL_PATH = Path(__file__).parent / "fraud_detection_model.sav"
+
+@st.cache_resource
+def load_model():
+    with open(MODEL_PATH, "rb") as f:
+        return pickle.load(f)
+
+fraud_detection_model = load_model()
 
 #
 st.title('Credit Card Fraud Detection Using Machine Learning')
