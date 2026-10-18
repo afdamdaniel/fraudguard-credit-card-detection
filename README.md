@@ -1,5 +1,10 @@
 # FraudGuard: Credit Card Fraud Detection Using Machine Learning
 
+## Live Demo
+[Open the FraudGuard app](https://your-app-link.streamlit.app)
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-link.streamlit.app)
+
 ## Overview
 FraudGuard is a machine learning project that identifies potentially fraudulent credit card transactions based on transaction-related features.
 
