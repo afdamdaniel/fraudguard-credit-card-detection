@@ -1,7 +1,7 @@
 # FraudGuard: Credit Card Fraud Detection Using Machine Learning
 
 ## Live Demo
-[Open the FraudGuard app](https://your-app-link.streamlit.app)
+[Open the FraudGuard app](https://fraudguard-credit-card-detection-9b7bxq73rmksffews23b7d.streamlit.app/)
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-link.streamlit.app)
 
